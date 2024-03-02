@@ -1,14 +1,12 @@
-import Header from "@/components/Header/Header";
+import DownloadApp from "@/components/DownloadApp/DownloadApp";
 import styles from "./page.module.css";
 
 const Home = (props) => {
   return (
-    <>
-    <Header/>
-    <main className={styles.main}>
-      Home
+    <main className={styles.container}>
+      
+      <DownloadApp/>
     </main>
-    </>
   );
 }
 
