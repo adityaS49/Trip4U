@@ -1,0 +1,332 @@
+.banner{
+    margin: 0.75em 0;
+    border-radius:12px;
+    background-image:url("/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    padding: 0 5.9em;
+}
+
+.banner__top{
+    position:absolute;
+    left: calc(50% - 100px);
+    display:flex;
+    flex-direction:row;
+    width:200px;
+    justify-content:space-evenly;
+}
+
+.banner__top > div{
+    font-family: Inter;
+    font-size: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding:0.5em;
+    border-radius:8px;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:0.5em;
+}
+
+.banner__top_text{
+    color: #858678;
+}
+
+.banner__top_selected{
+    font-weight: 600;
+    background: #DA260D !important;
+}
+
+.banner__top_selected > span{
+    color: #FFFFFF !important;
+}
+
+.banner__menu{
+    padding: 4em 0 0.5em 0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.banner__menu_type{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:0.25em;
+}
+
+.banner__menu_type_text{
+    padding: 0.37em 0.75em;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    background: #DA260D;
+    box-shadow: 0px 1px 2px 0px #00000026;
+    border-radius:6px;
+    margin-right:0.5em;
+}
+
+.banner__menu_direct{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:0.5em;   
+}
+
+.banner__menu_direct >input {
+    border-radius:6px;
+    background: transparent;
+    outline:none;
+    border:none;
+}
+
+.banner__menu_direct >div {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.banner__board{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    background: #FFFFFF;
+    border-radius:6px;
+}
+
+.banner__board_text_container{
+    display:flex;
+    flex-direction:column;
+    width:20%;
+    padding: 1em 1.25em;
+}
+
+.banner__board_text_cont_width_10{
+    width:10%;
+}
+
+.banner__board_text_cont_width_15{
+    width:14%;
+}
+
+.banner__board_text_cont_width_20{
+    width:20%;
+}
+
+.banner__board_text_container > div{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#787E86;
+}
+
+.banner__board_text_container > span{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E2529;   
+}
+
+.banner__board_text_container > p{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color:#787E86;  
+}
+
+.banner__board_text_container > p > span{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color:#787E86;  
+}
+
+.banner__board_search{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:0.5em;
+    padding: 1.5em 1.75em;
+    /* width:10%; */
+    /* height:100%; */
+    border-radius: 0 6px 6px 0;
+    white-space:nowrap;
+    background: linear-gradient(180deg, #F13B10 0%, #CB2903 100%);
+}
+
+.banner__board_search >div {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.banner__board_search >span {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFE500;
+}
+
+.banner__boardbottom_menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:0.75em;
+    margin:0.75em 0 4.25em;
+}
+
+.bottom_menu_text{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:0.25em;
+    padding: 0.5em 1em;
+    background: #FFFFFF14;
+    border-radius:6px;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.bottom_heading{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    gap:0.25em;
+}
+
+.bottom_heading_text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.banner__bottomcover_menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:0.5em;
+}
+
+.banner__bottom_menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:0.5em;
+}
+
+.bottomdown_menu{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    padding: 0.25em 0.5em;
+    background: #FFFFFF14;
+    border-radius:6px;
+    margin-bottom:2.5em;
+}
+
+.bottomdown_menu > span{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.bottomdown_menu > p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.save_more_button{
+    background: linear-gradient(180deg, #2FB500 0%, #2AA000 100%);
+    font-family: Inter;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF !important;
+    border-radius:4px;
+    padding: 0.48em 0.5em;
+}
+
+.travelling_class{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E2529;
+}
+
+.rowFlex{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:0.25em;
+}

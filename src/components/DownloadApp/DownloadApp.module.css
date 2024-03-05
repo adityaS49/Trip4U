@@ -1,103 +1,103 @@
 .downloadApp {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  
-  .downloadApp__info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .downloadApp__infoText {
-    color: #FF8900;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 15px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    padding: 0.5em;
-    background: #FFF4E6;
-    margin-bottom:0.6em;
-  }
 
-  .downloadApp__headingText{
-    font-family: Inter;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: #1E2529;
-    margin-bottom:0.25em;
-  }
+.downloadApp__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
-  .downloadApp__supportText{
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #545A61;
-    margin-bottom:1.1em;
-  }
+.downloadApp__infoText {
+  color: #FF8900;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 0.5em;
+  background: #FFF4E6;
+  margin-bottom:0.6em;
+}
 
-  .downloadApp__supportText > span{
-    font-weight: 600;
-  }
-  
-  .downloadApp__buttonContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-  }
+.downloadApp__headingText{
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1E2529;
+  margin-bottom:0.25em;
+}
 
-  .downloadApp__country_code{
-    border: 1px solid #99A2A7;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #BABCBE;
-    width: 10%;
-    height: 40px;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    border-right:0px;
-    border-radius: 4px 0px 0px 4px ;
-    gap:0.5em;
-  }
-  
-  .downloadApp__input {
-    border: 1px solid #99A2A7;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #BABCBE;
-    width: 40%;
-    height: 40px;
-    border-radius: 0px 4px 4px 0px;
-    border-left:0px;
-  }
+.downloadApp__supportText{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #545A61;
+  margin-bottom:1.1em;
+}
+
+.downloadApp__supportText > span{
+  font-weight: 600;
+}
+
+.downloadApp__buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.downloadApp__country_code{
+  border: 1px solid #99A2A7;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BABCBE;
+  width: 10%;
+  height: 40px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  border-right:0px;
+  border-radius: 4px 0px 0px 4px ;
+  gap:0.5em;
+}
+
+.downloadApp__input {
+  border: 1px solid #99A2A7;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BABCBE;
+  width: 40%;
+  height: 40px;
+  border-radius: 0px 4px 4px 0px;
+  border-left:0px;
+}
 
 .downloadApp__input:focus, 
 .downloadApp__input:active {
@@ -105,35 +105,37 @@
   box-shadow: none; /* Remove any default box-shadow */
 } 
 
-  .downloadApp__button {
-    padding: 0.75em 1.5em;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    background: #DA260D;
-    margin-left:0.25em;
-  }
-  
-  .downloadApp__downloadContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 210px;
-    border-radius: 8px;
-    background: #FAFAFA;
-    padding: 2em;
-    gap:0.5em;
-    color: #787E86;
-  }
-  
-  .downloadApp__downloadText {
-    font-family: Plus Jakarta Sans;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 14px;
-    letter-spacing: 0.1em;
-    text-align: center;
-    padding-bottom:1em;
-  }
+.downloadApp__button {
+  font-family: Inter;
+  padding: 0.75em 1.5em;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #DA260D;
+  margin-left:0.25em;
+}
+
+.downloadApp__downloadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  border-radius: 8px;
+  background: #FAFAFA;
+  padding: 2em;
+  gap:0.5em;
+  color: #787E86;
+}
+
+.downloadApp__downloadText {
+  color: #787E86;
+  font-family: Plus Jakarta Sans;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom:1em;
+}
