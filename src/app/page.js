@@ -5,18 +5,21 @@ import AdStrip from "@/components/AdStrip/AdStrip";
 import Carousel from "@/components/Crousel/Crousel";
 import FixedFlights from "@/components/FixedFlights/FixedFlights";
 import TopDestinations from "@/components/TopDestinations/TopDestinations";
+import Booking from "@/components/Booking/Booking";
 
 const Home = (props) => {
   return (
     <main className={styles.container}>
-      <Banner/>
-      <AdStrip/>
-      <Carousel/>
-      <FixedFlights/>
-      <TopDestinations/>
-      <DownloadApp/>
+      <Banner />
+      <AdStrip />
+      <Carousel />
+      <FixedFlights />
+      <TopDestinations />
+      <DownloadApp />
+
+      <Booking />
     </main>
   );
-}
+};
 
-export default Home
+export default Home;

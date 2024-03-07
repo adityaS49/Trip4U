@@ -1,0 +1,258 @@
+.booking_page {
+  display: flex;
+  flex-direction: column;
+}
+.booking_page_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: black;
+  padding-bottom: 4em;
+}
+.booking_page_top_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  font-size: 22px;
+  color: white;
+}
+.booking_page_top_right_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #99a2a7;
+  gap: 2em;
+}
+.booking_page_top_right_links > li {
+  color: #e5e8eb;
+  cursor: pointer;
+}
+.booking_page_bottom {
+  border: 2px solid white;
+  margin: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bookingTrip_Details {
+  border: 2px solid white;
+}
+.bookingTrip_Details_banner {
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  margin-top: -5em;
+  margin-left: .6em;
+  border: 2px solid rgb(224, 219, 219);
+}
+.bookingTrip_Details_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3em;
+}
+.bookingTrip_Details_top_left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+.bookingTrip_Details_top_left_place > span {
+  color: black;
+  font-weight: 600;
+}
+.bookingTrip_Details_top_left_timing {
+  font-weight: 600;
+  font-size: 0.8em;
+  color: black;
+}
+.bookingTrip_Details_top_right {
+    display: flex;
+    align-items: center;
+  color: #da260d;
+  align-items: right;
+  font-weight: 600;
+  font-size: 0.9em;
+  gap: .3em;
+}
+.bookingTrip_Details_bottom {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.bookingTrip_Details_bottom_left {
+  background-color: #99a2a7;
+ border-radius: .1em;
+  width: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bookingTrip_Details_bottom_left > h6 {
+  color: white;
+  transform: rotate(-90deg);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.15em;
+  text-align: left;
+}
+.bookingTrip_Details_bottom_right {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  border: 2px solid rgb(234, 231, 231);
+  border-radius: 12px;
+  padding: 2em;
+  margin-right: 1em;
+}
+.bookingTrip_Details_bottom_flight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bookingTrip_Details_bottom_flight > h6 {
+  font-family: Inter;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.bookingTrip_Details_bottom_flight > p {
+  font-family: Inter;
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.planeChange{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #F7931E;
+    border-radius: 1em;
+    padding-top: .1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+.bookingTrip_Details_right_center{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.planeChange>span{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.bookingTrip_Details_bottom_direction {
+  display: flex;
+  gap: 3em;
+}
+.bookingTrip_Details_bottom_place {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.flightPlace {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+.flightPlaceTop {
+  display: flex;
+  gap: 2em;
+}
+.placeIcon {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  background-color: #99a2a7;
+  padding: 0.3em;
+}
+.placeLocation {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flightTime > h4 {
+  font-family: Inter;
+  font-size: 1.8em;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.flightTime > h6 {
+  font-family: Inter;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight_Status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flight_Status_middle {
+  display: flex;
+}
+.flight_Status_middle > span {
+  color: red;
+  font-size: 2em;
+}
+.flight_Status > h6 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.baggage_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d8dbdd;
+ padding: .3em .6em ;
+  border-radius: .3em;
+}
+.baggages {
+  display: flex;
+  gap: 0.2em;
+}
+.baggages > span {
+  font-family: Inter;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.baggages > p {
+  font-family: Inter;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
