@@ -21,6 +21,7 @@ const Header = props => {
         <img src='/person.svg' />
             <span>Login/Register</span>
         </div>
+  
       </div>
     </header>
   )

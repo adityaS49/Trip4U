@@ -33,7 +33,7 @@ const Booking = () => {
                   </div>
                 </div>
                 <div className={styles.bookingTrip_Details_top_right}>
-                 <img src="/leftArrow.svg" alt="" /> Back to Search
+                  <img src="/leftArrow.svg" alt="" /> Back to Search
                 </div>
               </div>
               <div className={styles.bookingTrip_Details_bottom}>
@@ -43,13 +43,13 @@ const Booking = () => {
                 <div className={styles.bookingTrip_Details_bottom_right}>
                   <div className={styles.bookingTrip_Details_bottom_direction}>
                     <div className={styles.bookingTrip_Details_bottom_flight}>
-                    <img src="/Flight.svg" alt="" />
+                      <img src="/Flight.svg" alt="" />
                       <h6>IndiGo</h6>
                       <h6>6E 449</h6>
                       <h6>Economy</h6>
                       <p>Airbus A320-100</p>
                     </div>
-                    <div className={styles.bookingTrip_Details_bottom_place}>
+                    <div className={styles.bookingTrip_Details_bottom_place}> 
                       <div className={styles.flightPlaceTop}>
                         <div className={styles.flightPlace}>
                           <div>
@@ -68,7 +68,7 @@ const Booking = () => {
                         <div className={styles.flight_Status}>
                           <h6>2h 5m</h6>
                           <div className={styles.flight_Status_middle}>
-                          --------   <img src="/FlightDirection.svg" alt="" />
+                            -------- <img src="/FlightDirection.svg" alt="" />
                           </div>
                           <h6>Non-stop</h6>
                         </div>
@@ -93,19 +93,20 @@ const Booking = () => {
                         </div>
                         <div className={styles.baggages}>
                           <span>Cabin Baggage:</span>
-                          <p>7KG(1 piece per tax)</p>
+                          <p>7KG (1 piece per tax)</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className={styles.bookingTrip_Details_right_center}>
-                        <div className={styles.planeChange}>
-                        Change Plane at <span>Vishakhapatnam(VTZ)</span>, connecting time <span>1h 20m</span>
-                        </div>
+                    <div className={styles.planeChange}>
+                      Change Plane at <span>Vishakhapatnam(VTZ)</span>,
+                      connecting time <span>1h 20m</span>
+                    </div>
                   </div>
                   <div className={styles.bookingTrip_Details_bottom_direction}>
                     <div className={styles.bookingTrip_Details_bottom_flight}>
-                     <img src="/Flight.svg" alt="" />
+                      <img src="/Flight.svg" alt="" />
                       <h6>IndiGo</h6>
                       <h6>6E 449</h6>
                       <h6>Economy</h6>
@@ -130,7 +131,8 @@ const Booking = () => {
                         <div className={styles.flight_Status}>
                           <h6>2h 5m</h6>
                           <div className={styles.flight_Status_middle}>
-                            --------<img src="/FlightDirection.svg" alt="" />
+                            --------
+                            <img src="/FlightDirection.svg" alt="" />
                           </div>
                           <h6>Non-stop</h6>
                         </div>
@@ -165,7 +167,9 @@ const Booking = () => {
             </div>
           </div>
 
-          <div className={styles.bookingTrip_Cancellation}></div>
+          <div className={styles.bookingTrip_Cancellation}>
+              
+          </div>
         </div>
         <div className={styles.booking_page_bottom_right}></div>
       </div>

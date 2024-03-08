@@ -101,7 +101,7 @@
 .bookingTrip_Details_bottom_right {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1em;
   border: 2px solid rgb(234, 231, 231);
   border-radius: 12px;
   padding: 2em;
@@ -140,6 +140,7 @@
     padding-top: .1em;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: .1em;
     text-align: center;
 }
 .bookingTrip_Details_right_center{
@@ -163,7 +164,7 @@
 .bookingTrip_Details_bottom_place {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: .8em;
 }
 .flightPlace {
   display: flex;
@@ -172,7 +173,7 @@
 }
 .flightPlaceTop {
   display: flex;
-  gap: 2em;
+  gap: 4em;
 }
 .placeIcon {
   font-family: Inter;
